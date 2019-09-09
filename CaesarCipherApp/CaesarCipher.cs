@@ -16,18 +16,5 @@ namespace CaesarCipherApp
 
             return encryptedText;
         }
-
-        public static string Decrypt (string cipher, int shift)
-        {
-            var decryptedText = string.Empty;
-            var asciiBytes = Encoding.ASCII.GetBytes(cipher);
-
-            foreach (var asciiCode in asciiBytes)
-            {
-                decryptedText += (char)(asciiCode + shift);
-            }
-
-            return decryptedText;
-        }
     }
 }
