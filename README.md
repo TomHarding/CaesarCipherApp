@@ -1,7 +1,7 @@
-# Ceaser Cipher App
+# Caesar Cipher App
 
-Just a small forms application to encrypt/decrypt text using a monoalphabetic substitution cipher.
+Caesar cipher is a monoalphabetic substitution cipher. It takes a string and shifts all the characters by a given offset.
 
-It takes the string and converts it to a ASCII byte array and then shifts all the characters by x. This offers
-no real value in encryption terms today, but it's a nice beginning into cryptograpthy.
+This application allows you to encrypt and decrypt that cipher. It just takes a string and shift offset and does the rest.
 
+This really offers no encryption in today’s world, as it's easily broken or even brute forced, but it's a nice beginning into cryptography.
